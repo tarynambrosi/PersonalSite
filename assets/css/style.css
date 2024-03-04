@@ -117,7 +117,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #e9e8e6;
+  background: #333333;
   box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.08);
   z-index: 997;
   padding: 15px 0;
@@ -134,7 +134,7 @@ h6 {
 }
 
 #header .logo a {
-  color: #222222;
+  color: #ffffff;
 }
 
 #header .logo img {
@@ -218,7 +218,7 @@ h6 {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #34b7a7;
+  background-color: #888888;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -235,7 +235,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #222222;
+  color: #ffffff;
 }
 
 .navbar .dropdown ul {
@@ -309,7 +309,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #222222;
+  color: #ffffff;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -421,7 +421,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("https://imgur.com/a/7hUFaSu") top right;
+  background: url('/assets/img/italia.JPG') top right;
   background-size: cover;
 }
 
@@ -441,11 +441,13 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #222222;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+  color: #ffffff;
 }
 
 #hero h2 {
-  color: #6f6f6f;
+  color: #ffffff;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 9);
   margin: 10px 0 0 0;
   font-size: 22px;
 }
@@ -462,12 +464,13 @@ h6 {
   transition: 0.5s;
   margin-top: 30px;
   color: #fff;
-  background: #34b7a7;
+  background: #333333;
 }
 
 #hero .btn-about:hover {
-  background: #3dc8b7;
+  background: #ffffff;
   transform: scale(1.05);
+  color: #333333;
 }
 
 @media (min-width: 1024px) {
